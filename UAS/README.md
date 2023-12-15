@@ -13,8 +13,8 @@ to run the web app simply  use
 Install postman 
 https://www.postman.com/downloads/
 
-get komputer list
-<img src='img/get_komputer.png' alt='komputer list'/>
+get sikat_gigi list
+<img src='img/get_sikat_gigi.png' alt='sikat_gigi list'/>
 
 get recommendations saw
 <img src='img/get_saw.png' alt='recommendations saw'/>
@@ -28,10 +28,10 @@ Implementasikan model yang sudah anda buat ke dalam web api dengan http method `
 INPUT:
 {
     "harga": 1, 
-    "berat": 2, 
-    "rating": 3, 
-    "garansi": 4, 
-    "kecepatan_processor": 5
+    "kekerasan_bulu_sikat": 2, 
+    "bahan_bulu_sikat": 3, 
+    "ukuran_kepala_sikat": 4, 
+    "ulasan": 5
 }
 
 OUTPUT (diurutkan / sort dari yang terbesar ke yang terkecil):
